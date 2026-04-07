@@ -5,12 +5,6 @@ Convert MTPuTTY XML session trees into MobaXterm bookmark files (`.mxtsessions`)
 ## What this project contains
 
 - `mtputty2mobaxterm.py`: Main converter script (interactive CLI + reusable functions)
-- `test_conversion.py`: Minimal test runner using a sample XML file
-- Sample input/output files for validation:
-   - `mputty_tree_cyberark_26Jul2024_with_test.xml`
-   - `test_output_latest.mxtsessions`
-   - `MobaXterm_Sessions_(Latest_Model).mxtsessions`
-
 ## Features
 
 - Converts MTPuTTY `Node` trees into MobaXterm `[Bookmarks]` sections
