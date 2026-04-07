@@ -80,21 +80,10 @@ You can call the converter directly from Python:
 from mtputty2mobaxterm import convert_mtputty_to_mobaxterm
 
 convert_mtputty_to_mobaxterm(
-      "mputty_tree_cyberark_26Jul2024_with_test.xml",
-      "test_output_latest.mxtsessions"
+      "mputty.xml",
+      "mobaxterm.mxtsessions"
 )
 ```
-
-## Run included test script
-
-```bash
-python3 test_conversion.py
-```
-
-This uses:
-
-- input: `mputty_tree_cyberark_26Jul2024_with_test.xml`
-- output: `test_output_latest.mxtsessions`
 
 ## MobaXterm import steps
 
