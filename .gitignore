@@ -1,0 +1,11 @@
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Sensitive source exports and generated session artifacts
+*.xml
+*.mxtsessions
+MobaXterm_Stored_Passwords.txt
